@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+live_cam_test/.venv/
+
+# Model weights (large binaries — download via gdown, see README)
+*.pth
+*.pth.tar
+*.onnx
+*.engine
+
+# External repos (clone manually, see README)
+live_cam_test/ByteTrack/
+live_cam_test/TransReID/
+
+# Data (generated at runtime)
+live_cam_test/data/recordings/
+live_cam_test/data/crops/
+live_cam_test/results/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# IDE / OS
+.idea/
+.vscode/
+*.DS_Store
